@@ -7,3 +7,7 @@ Repositório dos códigos criados no curso da Alura "Dart: primeiros passos com 
 ## Site
 
 https://cursos.alura.com.br/course/dart-primeiro-passos
+
+## Certificado
+
+Pasta docs
