@@ -6,17 +6,12 @@ void main() {
   int idade = 9;
   bool acompanhado = true;
 
-  if (idade >= 16) {
+  // &&  significa e
+  // || significa ou
+
+  if (idade >= 16 || (idade >= 10 && acompanhado)) {
     print("pode assistir");
   } else {
-    if (idade >= 10) {
-      if (acompanhado) {
-        print("menor, mas acompanhado, pode assitir");
-      } else {
-        print("menor, desacompanhado, nao pode assitir");
-      }
-    } else {
-      print("menor de 10 anos, nao pode assitir.");
-    }
+    print("não pode assistir");
   }
 }
